@@ -20,7 +20,24 @@ from glob import glob
 from pathlib import Path
 from time import time
 
-scene_value = int(input("\nAvailable Scenes:\n\t1. Brandenburg Gate\n\t2. British Museum\n\t3. Buckingham Palace\n\t4. Colosseum Exterior\n\t5. Grand Palace Brussels\n\t6. Lincoln Memorial Statue\n\t7. Notre Dame Front Facade\n\t8. Pantheon Exterior\n\t9. Piazza San Marco\n\t10. Sacre Coeur\n\t11. Sagrada_familia\n\t12. St Pauls Cathedral\n\t13. St Peters Square\n\t14. Taj Mahal\n\t15. Temple Nara Japan\n\t16. Trevi Fountain\n\nChoose scene: "))
+scene_value = int(input("\nAvailable Scenes:\n\t
+                        1. Brandenburg Gate\n\t
+                        2. British Museum\n\t
+                        3. Buckingham Palace\n\t
+                        4. Colosseum Exterior\n\t
+                        5. Grand Palace Brussels\n\t
+                        6. Lincoln Memorial Statue\n\t
+                        7. Notre Dame Front Facade\n\t
+                        8. Pantheon Exterior\n\t
+                        9. Piazza San Marco\n\t
+                        10. Sacre Coeur\n\t
+                        11. Sagrada_familia\n\t
+                        12. St Pauls Cathedral\n\t
+                        13. St Peters Square\n\t
+                        14. Taj Mahal\n\t
+                        15. Temple Nara Japan\n\t
+                        16. Trevi Fountain\n\n
+                        Choose scene: "))
 
 switcher = {
     1: "brandenburg_gate",
